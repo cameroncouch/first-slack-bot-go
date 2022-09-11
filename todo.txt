@@ -1,0 +1,19 @@
+Properly Respond to Slack
+- I only need to respond with the challenge body on setup?
+
+Security & Authentication
+
+Database
+- Insert questions into rows
+- App reads from rows and responds to original thread in a separate routine not related to ingestion
+
+
+Handle Event
+- Parse event from slack as JSON
+
+Routing
+- Math equation route
+- Flip text route
+
+Solve an equation and send the answer back to the channel, or flip the text backward
+- Infer from text if it's a math problem or a text string to be flipped
